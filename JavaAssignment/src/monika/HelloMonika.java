@@ -5,10 +5,6 @@ public class HelloMonika {
 	public static void main(String[] args) {
 		System.out.println("Hello Monika");
 		System.out.println("Hello Rahul");
-		
-		
-
-
 	}
 
 }

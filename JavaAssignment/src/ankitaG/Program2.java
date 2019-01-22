@@ -9,8 +9,7 @@ public class Program2 {
 		studentrollno = rno;
 		studentName = name;
 		studentMarks = marks;
-		System.out.println(" rollno is:" + studentrollno + " " + "\n student Name is:" + studentName + " "
-				+ "\n student Marks is:" + studentMarks);
+		System.out.println(" rollno is:" + studentrollno + " " + "\n student Name is:" + studentName + " "+ "\n student Marks is:" + studentMarks);
 	}
 	public static void main(String[] args) {
 		int studentrollno = Integer.parseInt(args[0]);

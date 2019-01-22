@@ -1,8 +1,7 @@
 package ankitaG;
 
 public class Program1 
-{
-	
+{		
 	int addition(int num1, int num2)
 	{
 		int sum=num1+num2;

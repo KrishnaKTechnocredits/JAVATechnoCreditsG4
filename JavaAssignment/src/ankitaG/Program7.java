@@ -24,6 +24,5 @@ public class Program7 {
 		int seconds = Integer.parseInt(args[0]);
 		Program7 p7 = new Program7();
 		p7.conversionOfSecond(seconds);
-
 	}
 }

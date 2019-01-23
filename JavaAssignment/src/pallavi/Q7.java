@@ -1,4 +1,4 @@
-package Assignment_1;
+package pallavi;
 
 public class Q7 {
 

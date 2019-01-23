@@ -4,33 +4,42 @@ package pallavi;
 
 public class Q_1 {
 
-	void addition(int a, int b) {
-		int sum = a + b;
-		System.out.println("Sum of two numbers is " + sum);
+	int addition(int num1, int num2) {
+		int sum = num1 + num2;
+		return sum;
 	}
 
-	void multiplication(int a, int b) {
-		int mul = a * b;
-		System.out.println("Multiplication of two numbers is " + mul);
+	int multiplication(int num1, int num2) {
+		int mul = num1 * num2;
+		return mul;
 	}
 
-	void division(int a, int b) {
-		int div = a / b;
-		System.out.println("Division of two numbers is " + div);
+	int substraction(int num1, int num2) {
+		int sub = num1 - num2;
+		return sub;
 	}
 
-	void remainder(int a, int b) {
-		int rem = a % b;
-		System.out.println("Remainder of two numbers is " + rem);
+	int division(int num1, int num2) {
+		int div = num1 / num2;
+		return div;
+	}
+
+	int remainder(int num1, int num2) {
+		int rem = num1 % num2;
+		return rem;
 	}
 
 	public static void main(String[] args) {
-		int x = Integer.parseInt(args[0]);
-		int y = Integer.parseInt(args[1]);
+		int num1 = Integer.parseInt(args[0]);
+		int num2 = Integer.parseInt(args[1]);
 		Q_1 q = new Q_1();
-		q.addition(x, y);
-		q.multiplication(x, y);
-		q.division(y, x);
-		q.remainder(x, y);
+		int sum = q.addition(num1, num2);
+		int mul = q.multiplication(num1, num2);
+		int sub = q.substraction(num1, num2);
+		int div = q.division(num1, num2);
+		int rem = q.remainder(num1, num2);
+		System.out.println(" Sum is:" + sum + ",Substraction is:" + sub + ",Multiplication is:" + mul + ",Division is:"
+				+ div + " and Remainder is:" + rem);
+
 	}
 }

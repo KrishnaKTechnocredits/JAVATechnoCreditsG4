@@ -5,8 +5,7 @@ public class Swap_numbers
 	void swap(int x, int y)
 	{
 		System.out.println("Before Swap X is " +x +" and Y is "+y);
-		int temp=0;
-		temp=x;
+		int temp=x;
 		x=y;
 		y=temp;
 		System.out.println("After Swap X is "+x+" and Y is "+y);

@@ -5,7 +5,7 @@ import java.util.Scanner;
 //This program gives missing number in the array of 1 to 10 number
 public class MissingNumber{
 	
-	// this method will take input of numbers from user to craete array
+	// this method will take input of numbers from user to create array
 	int[] takeInputFromUser() {
 		Scanner scannerDemo = new Scanner(System.in);
 		System.out.println("Enter size of array");
